@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerApp", "BlazorServerApp.csproj", "{9A6AC759-C438-4B95-9264-590D0D06651D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Calendars", "..\ej2-blazor-source\Syncfusion.Blazor\Calendars\Syncfusion.Blazor.Calendars.csproj", "{5664B57D-ADA5-43E1-99EE-F763DE561939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Data", "..\ej2-blazor-source\Syncfusion.Blazor\Data\Syncfusion.Blazor.Data.csproj", "{211E6544-540F-4AEF-8870-FE778FE07088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.DropDowns", "..\ej2-blazor-source\Syncfusion.Blazor\DropDowns\Syncfusion.Blazor.DropDowns.csproj", "{A8C3C57D-33AF-4109-8036-64E3520B92D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Navigations", "..\ej2-blazor-source\Syncfusion.Blazor\Navigations\Syncfusion.Blazor.Navigations.csproj", "{CFC3FB5C-4F0E-4F97-A50B-84597F76B164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Core", "..\ej2-blazor-source\Syncfusion.Blazor\Base\Syncfusion.Blazor.Core.csproj", "{FD5035EC-5F09-4F90-A0F8-A794561A174C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Buttons", "..\ej2-blazor-source\Syncfusion.Blazor\Buttons\Syncfusion.Blazor.Buttons.csproj", "{846505BB-3190-4A84-801C-EC36FACBA8B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.DocumentEditor", "..\ej2-blazor-source\Syncfusion.Blazor\DocumentEditor\Syncfusion.Blazor.DocumentEditor.csproj", "{CCF97A9F-85EB-49A6-88D0-6D3575063805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Inputs", "..\ej2-blazor-source\Syncfusion.Blazor\Inputs\Syncfusion.Blazor.Inputs.csproj", "{EA53FBE0-7A21-4699-8F21-E413BE6DEAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Lists", "..\ej2-blazor-source\Syncfusion.Blazor\Lists\Syncfusion.Blazor.Lists.csproj", "{A5AFABF1-112F-48DD-B962-4BDCDA2F5C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Popups", "..\ej2-blazor-source\Syncfusion.Blazor\Popups\Syncfusion.Blazor.Popups.csproj", "{91217068-A808-4E75-A72C-AFE39BB4FE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.Spinner", "..\ej2-blazor-source\Syncfusion.Blazor\Spinner\Syncfusion.Blazor.Spinner.csproj", "{37D5BFB5-B10D-4510-B692-E4421C2D183D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.Blazor.SplitButtons", "..\ej2-blazor-source\Syncfusion.Blazor\SplitButtons\Syncfusion.Blazor.SplitButtons.csproj", "{F6FB5EDB-6997-4102-B562-39EEC22D108F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6AC759-C438-4B95-9264-590D0D06651D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6AC759-C438-4B95-9264-590D0D06651D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6AC759-C438-4B95-9264-590D0D06651D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6AC759-C438-4B95-9264-590D0D06651D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5664B57D-ADA5-43E1-99EE-F763DE561939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5664B57D-ADA5-43E1-99EE-F763DE561939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5664B57D-ADA5-43E1-99EE-F763DE561939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5664B57D-ADA5-43E1-99EE-F763DE561939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211E6544-540F-4AEF-8870-FE778FE07088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211E6544-540F-4AEF-8870-FE778FE07088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211E6544-540F-4AEF-8870-FE778FE07088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211E6544-540F-4AEF-8870-FE778FE07088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C3C57D-33AF-4109-8036-64E3520B92D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C3C57D-33AF-4109-8036-64E3520B92D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C3C57D-33AF-4109-8036-64E3520B92D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C3C57D-33AF-4109-8036-64E3520B92D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC3FB5C-4F0E-4F97-A50B-84597F76B164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC3FB5C-4F0E-4F97-A50B-84597F76B164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC3FB5C-4F0E-4F97-A50B-84597F76B164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC3FB5C-4F0E-4F97-A50B-84597F76B164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5035EC-5F09-4F90-A0F8-A794561A174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5035EC-5F09-4F90-A0F8-A794561A174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5035EC-5F09-4F90-A0F8-A794561A174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5035EC-5F09-4F90-A0F8-A794561A174C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846505BB-3190-4A84-801C-EC36FACBA8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846505BB-3190-4A84-801C-EC36FACBA8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846505BB-3190-4A84-801C-EC36FACBA8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846505BB-3190-4A84-801C-EC36FACBA8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF97A9F-85EB-49A6-88D0-6D3575063805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF97A9F-85EB-49A6-88D0-6D3575063805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF97A9F-85EB-49A6-88D0-6D3575063805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF97A9F-85EB-49A6-88D0-6D3575063805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA53FBE0-7A21-4699-8F21-E413BE6DEAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA53FBE0-7A21-4699-8F21-E413BE6DEAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA53FBE0-7A21-4699-8F21-E413BE6DEAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA53FBE0-7A21-4699-8F21-E413BE6DEAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AFABF1-112F-48DD-B962-4BDCDA2F5C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AFABF1-112F-48DD-B962-4BDCDA2F5C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AFABF1-112F-48DD-B962-4BDCDA2F5C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AFABF1-112F-48DD-B962-4BDCDA2F5C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91217068-A808-4E75-A72C-AFE39BB4FE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91217068-A808-4E75-A72C-AFE39BB4FE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91217068-A808-4E75-A72C-AFE39BB4FE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91217068-A808-4E75-A72C-AFE39BB4FE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D5BFB5-B10D-4510-B692-E4421C2D183D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D5BFB5-B10D-4510-B692-E4421C2D183D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D5BFB5-B10D-4510-B692-E4421C2D183D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D5BFB5-B10D-4510-B692-E4421C2D183D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FB5EDB-6997-4102-B562-39EEC22D108F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FB5EDB-6997-4102-B562-39EEC22D108F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FB5EDB-6997-4102-B562-39EEC22D108F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FB5EDB-6997-4102-B562-39EEC22D108F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

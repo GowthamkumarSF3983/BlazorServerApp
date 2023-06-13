@@ -1,0 +1,13 @@
+// Dependent component styles from node_modules
+@import 'ej2-base/styles/bootstrap5.scss';
+@import 'ej2-buttons/styles/bootstrap5.scss';
+@import 'ej2-inputs/styles/bootstrap5.scss';
+@import 'ej2-dropdowns/styles/bootstrap5.scss';
+@import 'ej2-popups/styles/bootstrap5.scss';
+@import 'ej2-lists/styles/bootstrap5.scss';
+@import 'ej2-splitbuttons/styles/bootstrap5.scss';
+@import 'ej2-navigations/styles/bootstrap5.scss';
+@import 'ej2-calendars/styles/bootstrap5.scss';
+
+// Doument editor style ias added from the latest cdn to ensure local changes make use of the theme from ej2-theme-studio repository.
+@import url(https://cdn.syncfusion.com/ej2/ej2-documenteditor/styles/bootstrap5.css);

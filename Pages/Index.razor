@@ -1,0 +1,21 @@
+﻿@page "/"
+@using Syncfusion.Blazor.DocumentEditor
+@using System.Text.Json
+
+<button @onclick="BtnClick">MP Button</button>
+<SfDocumentEditorContainer @ref="container" EnableToolbar="true" Height="620px">
+    <DocumentEditorContainerEvents Created="OnCreated"></DocumentEditorContainerEvents>
+</SfDocumentEditorContainer>
+
+
+@code  
+{  
+    SfDocumentEditorContainer container;
+    protected void OnCreated() {
+
+    }
+
+    public async void BtnClick(Object args) {
+        await container.DocumentEditor.Search.FindAllAsync("video", FindOption.None);
+    }
+}  
