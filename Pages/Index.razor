@@ -2,7 +2,7 @@
 @using Syncfusion.Blazor.DocumentEditor
 @using System.Text.Json
 
-<button @onclick="BtnClick">MP Button</button>
+@* <button @onclick="BtnClick">MP Button</button> *@
 <SfDocumentEditorContainer @ref="container" EnableToolbar="true" Height="620px">
     <DocumentEditorContainerEvents Created="OnCreated"></DocumentEditorContainerEvents>
 </SfDocumentEditorContainer>
@@ -15,7 +15,7 @@
 
     }
 
-    public async void BtnClick(Object args) {
+    @* public async void BtnClick(Object args) {
         await container.DocumentEditor.Search.FindAllAsync("video", FindOption.None);
-    }
+    } *@
 }  

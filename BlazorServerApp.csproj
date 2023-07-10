@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="21.2.6" />
-    <PackageReference Include="Syncfusion.EJ2.WordEditor.AspNet.Core" Version="21.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="22.1.37" />
+    <PackageReference Include="Syncfusion.EJ2.WordEditor.AspNet.Core" Version="22.1.37" />
 
-    <!-- <PackageReference Include="Syncfusion.Blazor.WordProcessor" Version="21.2.6" /> -->
+    <!-- <PackageReference Include="Syncfusion.Blazor.WordProcessor" Version="22.1.37" /> -->
   </ItemGroup>
 
   <ItemGroup>
