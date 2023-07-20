@@ -3,7 +3,7 @@
 @using System.Text.Json
 
 @* <button @onclick="BtnClick">MP Button</button> *@
-<SfDocumentEditorContainer @ref="container" EnableToolbar="true" Height="620px">
+<SfDocumentEditorContainer @ref="container" EnableToolbar="true" Height="648px">
     <DocumentEditorContainerEvents Created="OnCreated"></DocumentEditorContainerEvents>
 </SfDocumentEditorContainer>
 
@@ -11,7 +11,8 @@
 @code  
 {  
     SfDocumentEditorContainer container;
-    protected void OnCreated() {
+    public void OnCreated(object args)
+    {
 
     }
 
